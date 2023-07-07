@@ -57,9 +57,10 @@ function verNotas() {
 // Funcion Ver Promedio 
 function promedioNotas() {
     let promedio = (nota1 + nota2 + nota3) / 3
-    if (promedio >= 6) {
-        alert("El promedio del alumno es de: " + promedio + "\n Y su condicion es de: Regular")
+    if (nota1 < 4 || nota2 < 4 || nota3 < 4) {
+        alert("El promedio del alumno es de: " + promedio + "\n Y su condicion es: Libre porque desaprobo algun examen")
+
     } else {
-        alert("El promedio del alumno es de: " + promedio + "\n Y su condicion es de: Libre")
+        alert("El promedio del alumno es de: " + promedio + "\n Y su condicion es: Regular")
     }
 }
