@@ -11,7 +11,7 @@ let nota3 = 0
 //Menu
 do {
 
-    opcion = parseInt(prompt("Evaluador de Notas \nPara Ingresar a la opcion deseada ingrese el numero correspondiente \n1- Ingresar nota de los tres examenes de un alumno \n2- Ver las tres notas del alumno \n3- Ver Promedio final del alumno y su condicion \n4- Salir"))
+    opcion = parseInt(prompt("Evaluador de Notas \nPara Ingresar a la opcion deseada ingrese el numero correspondiente \n1- Ingresar notas de los tres examenes de un alumno \n2- Ver las tres notas del alumno \n3- Ver Promedio final del alumno y su condicion \n4- Salir"))
 
     switch (opcion) {
         case 1:
